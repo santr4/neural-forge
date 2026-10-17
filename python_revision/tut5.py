@@ -59,3 +59,16 @@ for index, fruit in enumerate(fruits):
 for index, fruit in enumerate(fruits, start=1):
     print(f"{index}. {fruit}")
 
+# Loops, conditions, and Exceptions
+
+for i in range(5):
+    print(i)
+
+score = 75
+
+if score > 75:
+    print("You passed with distinction!")
+elif score >= 50:
+    print("You passed!")
+else:
+    print("You failed!")
